@@ -1,4 +1,0 @@
-
-instalar greasemonley
-
-http://userscripts.org/
