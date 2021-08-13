@@ -8,11 +8,38 @@ Most recent revision: v5
 
 <head>
 <title>Your Name’s Portfolio</title>
-<link href="teststyles.css" rel="stylesheet" type="text/css" />
+
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
+
 <style>
- header {
-        background-color: darkgray;
-    }
+caption {
+   font-weight: bold;
+   font-size: 1.2em;
+   margin-bottom: 8px;
+}   
+
+table, th, td {
+    border: 1px solid #0d1f2d; 
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+table {
+	width: 90%;
+	margin: auto;
+}
+
+tr {
+	height: 30px;
+}
+
+th {
+    background-color: #546a7b; color: #f2eded;
+}
+
+tr:nth-child(odd) {
+    background-color: #e4c3ad; 
+}
 </style>
 
 
@@ -26,21 +53,19 @@ Most recent revision: v5
 	
 
 	<nav class="border"> <!-- The nav element will include navigation buttons or links -->
-	    <hr style="border: thin dotted red;" /> 
 	    <p><a href="projects.html">Projects</a></p>
 	    <p><a href="ContactMe.html">Contact Me</a></p>
 	    <p><a href="Testimonials.html">Testimonials</a></p>
-	    <hr style="width: 50%; border: 2px solid blueviolet;" />
 	</nav>
 
 
 	<section>
 
-	<nav class="border">
+	
 		<h2><em>About Me</em></h2>
 		<img src="images/penguin.jpg" alt="Portrait of Penguin" />
 		<p>I am flightless seabirds that live almost exclusively below the equator. Some island-dwellers can be found in warmer climates, but most—including emperor, adélie, chinstrap, and gentoo penguins—reside in and around icy Antarctica. A thick layer of blubber and tightly-packed, oily feathers are ideal for colder temperatures.</p>
-	</nav>
+	
 
 
 
@@ -53,11 +78,14 @@ Most recent revision: v5
 
 			<table>
 				<caption>Employment History</caption>
+				<thead>
 				<tr>
 					<th>Years of employment</th>
 					<th>Title</th>
 					<th>Company</th>
 				</tr>
+			</thead>
+			<tbody>
 				<tr>
 					<td>2018-Present</td>
 					<td>Apprentice</td>
@@ -73,6 +101,7 @@ Most recent revision: v5
 					<td>Student</td>
 					<td>State Universiy</td>
 				</tr>
+			</tbody>
 			</table>
 	</article>
 
@@ -114,9 +143,8 @@ Most recent revision: v5
     	</ul>
 	</article>
 	</section>
-	<footer style="background-color: fuchsia">
-		@teste fjdkjfdkj fkdjfkdfjdlk
-		<hr />
+	<footer>	
+		@The Pinguin. All rights reserved.
 	</footer>
 	</body>
 </html>
