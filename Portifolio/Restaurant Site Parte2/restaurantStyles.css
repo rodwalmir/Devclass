@@ -1,0 +1,27 @@
+/*
+Creator: Walmir
+Date created: 02/08/2021
+Date last modified: v1
+*/
+
+
+header, footer {
+    font-family: Garamond, serif;
+    background-color: #e6f3ff;
+    color: #fef9ff;
+    height: 100px;
+    text-align: center;
+	padding: 30px 10px 20px 10px;
+ }
+
+
+/*table {
+    text-align:center; 
+    font-family: Copperplate, Papyrus, fantasy;
+    width: 80%;
+}
+*/
+
+form {
+    font-weight: bold;
+}

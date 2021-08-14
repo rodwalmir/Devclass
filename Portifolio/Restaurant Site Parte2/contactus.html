@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Name: Walmir Rodrigues
+Date Created: 07/29/21
+Most recent revision: v1
+-->
+
+<head>
+<title>Restaurant Site</title>
+<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<header>
+
+		Contact Us
+		<hr />
+		<h1>Stupendous Seafood</h1>
+		<hr>
+	</header>
+
+
+
+	<nav>
+		<p>
+			<a href="index.html">Home</a>&nbsp;&nbsp;
+			<a href="Menu.html">Menu</a>&nbsp;&nbsp;
+			<a href="Contactus.html">Contact Us</a>
+		</p>
+		<hr /> 
+	</nav>
+
+	<nav>
+		<form action="submit.html" method="POST" style="text-align: center;">
+			Name: <input type="text" name="name" /> <br />
+			Email: <input type="text" name="email" /> <br />
+			Phone: <input type="text" name="phone" /> <br />
+
+			<label for="Inquiry">Reason for Inquiry:</label>
+			<select>
+				<option value="default" selected>Catering</option>
+		        <option value="PrivateParty">Private Party</option>
+		        <option value="Feedback">Feedback</option>
+		        <option value="Other">Other</option>
+	    	</select>  
+	    	<br />
+
+	    	<label for="info">Additional Information:</label>
+            <textarea id="info" name="info"></textarea><br />
+
+            <label for="info">Have you been to the restaurant?</label>
+             <input type="radio" name="answer" value="YES">Yes
+    		<input type="radio" name="answer" value="NO"/>No<br />
+
+    		<label for="info">Best days to contact you:</label>
+    		<input type="checkbox" name="myChoices" value="M">M
+    		<input type="checkbox" name="myChoices" value="T">T
+    		<input type="checkbox" name="myChoices" value="W">W
+    		<input type="checkbox" name="myChoices" value="Th">Th
+    		<input type="checkbox" name="myChoices" value="F">F <br>
+
+    		<input type="Submit" name="Submit" value="Send Request">
+		</form>
+		<br>
+	</nav>	
+
+	<footer>
+		<hr />
+		<p>
+			2022 Beatty Street Vancouver, BC V2Z 2Y3 Canada   201.201.2022
+		</p>
+	</footer>
+ </body>
+</html>
