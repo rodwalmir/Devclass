@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<!--
+Name: Walmir Rodrigues
+Date Created: 07/29/21
+Most recent revision: v1
+-->
+
+<head>
+
+	<title>Restaurant Site</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	
+	<div>  
+	  	<style>
+            nav {
+                border-top: thin #5b7d87 solid;
+                border-bottom: thin #5b7d87 solid;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                }
+
+            nav .btn {
+                    background-color: #999707;
+                    color: #fef9ff; 
+                    }
+
+            nav .btn:hover {
+                           font-weight: bold;
+                           }   
+
+			#site {
+					display: none;
+				  }
+
+		</style>
+				<script src="http://code.jquery.com/jquery-latest.min.js "></script>
+				<script>
+					$(document).ready(function() {
+						$("#noJS").hide();
+						$("#site").show();
+					});
+				</script>
+    	
+	</div>
+</head>
+
+
+
+<body style="background-color: #eeecec; color: rgb(59, 17, 4); text-align: center;">
+	<div class="container">
+		
+		
+		<header class="jumbotron" style="color: rgb(59, 17, 4); font-family:Arial, Helvetica, sans-serif">
+			<h3 class="display-4">Comming Soon NEW Location</h3>
+			<hr />
+			<h1>Stupendous Seafood</h1>
+		</header>
+
+
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding-top: 22px; padding-bottom: 42px; background-color:transparent" >
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+		
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" >
+			  <div class="item active">
+				<h3>We're opening a new location!</h3>
+			  </div>
+		
+			  <div class="item">
+				<h3>We're rolling out our seasonal menu, with special options for this season.</h3>
+			  </div>
+			
+			  <div class="item">
+				<h3>The Drink of the Month is SG Special Brew.</h3>
+			  </div>
+			</div>
+		
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+
+
+
+		<nav>
+			<p style="text-align: left;">Menu</p>
+			<p>
+				<a class="btn badge-tab" href="index.html">Home</a>
+				<a class="btn badge-tab" href="Menu.html">Menu</a>
+				<a class="btn badge-tab" href="Contactus.html">Contact Us</a>
+			</p>
+			<hr /> 
+		</nav>
+		<nav>
+
+
+
+			<div class="row" >
+				<div class="col-sm-4" style="text-align:center; font-family: Copperplate, Papyrus, fantasy; width: 80%; margin: auto;">
+					<h4>CRAB & ARTICHOKE DIP </h4>
+					Roasted garlic, sundried tomatoes, spinach, tortilla chips $7.90 
+				</div>
+
+				<div class="col-sm-4" style="text-align:center; font-family: Copperplate, Papyrus, fantasy; width: 80%; margin: auto;">
+					<h4>DUNGENESS CRAB CAKE </h4>
+					Housemade coleslaw, chili-lime aioli $17
+				</div>
+
+				<div class="col-sm-4" style="text-align:center; font-family: Copperplate, Papyrus, fantasy; width: 80%; margin: auto;">
+					<h4>FRIED OYSTERS</h4>
+					Housemade cocktail sauce, tarragon horseradish sauce $15
+				</div>
+			</div>
+
+			<div class="row" >
+				<div class="col-sm-4" style="text-align:center; font-family: Copperplate, Papyrus, fantasy; width: 80%; margin: auto;">
+					<h4>WOK SQUID</h4>
+					Garlic, chilies, onions, cilantro, ginger $17 
+				</div>
+
+				<div class="col-sm-4" style="text-align:center; font-family: Copperplate, Papyrus, fantasy; width: 80%; margin: auto;">
+					<h4>CLAMS & ANDOUILLE SAUSAGE</h4>
+					Spicy tomato broth with garlic & herbs $20
+				</div>
+
+				<div class="col-sm-4" style="text-align:center; font-family: Copperplate, Papyrus, fantasy; width: 80%; margin: auto;">
+					<h4>TRUFFLE MUSHROOM PIZZA</h4>
+					Roasted garlic, caramelized onions *gluten free dough $19
+				</div>		
+			</div>
+		</nav>
+
+		<nav>
+				<table>
+					<style>
+						table{
+							text-align: center;
+							font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+							margin: auto;
+							border-collapse: collapse; 
+							width: 80%; 
+							margin: auto; 
+							color: white;
+							}
+
+							tbody  tr:nth-child(even) {
+							background-color: #bea949;
+							}
+
+							tbody tr:nth-child(odd) {
+							background-color: #52531c;
+							}
+
+							th, td{
+								padding: 5px;
+							}
+					</style>
+
+					<tbody>
+						<tr>
+							<th colspan="2"; style="text-align: center;"> Beverages </th>	 		
+						</tr>
+						<tr>
+							<td>Root Beer</td>
+							<td>$3.00</td>
+						</tr>
+						<tr>
+							<td>Bottled Water</td>
+							<td>$1.25</td>
+						</tr>
+						<tr>
+							<td>Lemonade</td>
+							<td>$1.00</td>	 		
+						</tr>
+						<tr>
+							<td>Iced Tea</td>
+							<td>$1.25</td>
+						</tr>
+					</tbody>
+				</table>
+				
+		</nav>
+
+		<footer>
+			<p>
+			<hr />
+				2022 Beatty Street Vancouver, BC V2Z 2Y3 Canada   201.201.2022
+			</p>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>      
+		<div style="color: red; background-color: rgb(129, 130, 190);" id="noJS">Please enable JavaScript...</div>
+		<div style="color: red; background-color: rgb(129, 130, 190);" id="site">JavaScript dependent content here...</div>
+	
+	</div>
+ </body>
+
+ 
+ 
+</html>

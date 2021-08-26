@@ -1,0 +1,74 @@
+/*
+Creator: Walmir
+Date created: 02/08/2021
+Date last modified: v1
+*/
+
+
+header, footer {
+    font-family: Garamond, serif;
+    background-color: #f5f3f3 !important;
+    color: #b38600;
+    height: 100px;
+    text-align: center;
+	padding: 30px 10px 20px 10px;
+ }
+
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/*table {
+    text-align:center; 
+    font-family: Copperplate, Papyrus, fantasy;
+    width: 80%;
+}
+*/
+
+
+
+
+nav .btn {
+     background-color: #0ab2e6;
+     color: #fef9ff; 
+        }
+
+
+nav a:visited {
+    color: #b31500; 
+}
+
+nav a:hover {
+    font-weight: bold;
+    
+}
+
+nav a:active {
+   text-decoration: none;
+}
+
+table.odd {
+    font-family: Garamond, serif;
+    border-color: #f2f2f2;
+    border-collapse: collapse; 
+    width: 50%; 
+    margin: auto; 
+}
+
+tbody.odd  tr:nth-child(even) {
+  background-color: #d9d9d9;
+}
+
+tbody.odd  tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+th, td{
+    padding: 15px;
+}
+
