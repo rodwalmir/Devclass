@@ -13,6 +13,7 @@ Most recent revision: v1
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	
 	
+	
 	<div>  
 	  	<style>
             nav {
@@ -42,6 +43,26 @@ Most recent revision: v1
 						$("#noJS").hide();
 						$("#site").show();
 					});
+				</script>
+
+
+				<script>
+					function myFunction() {
+					var txt
+					var r = confirm("Make sure you fill all informations correct before procedure");
+					if (r == true) {		
+									txt = confirm("Confirmed");
+									txt = ("Confirmed")					
+									} 
+									
+					
+									else {
+										txt = "Canceled";
+										}
+
+									document.getElementById("demo").innerHTML = txt;
+									}
+					
 				</script>
     	</style>
 	</div>
@@ -143,31 +164,19 @@ Most recent revision: v1
 			  </div>
 		
 			<div class="checkbox">
-			  <label for="info">Best days to contact you:</label>
-			  <label><input type="checkbox" name="remember">M</label>
-			  <label><input type="checkbox" name="remember">T</label>
-			  <label><input type="checkbox" name="remember">W</label>
-			  <label><input type="checkbox" name="remember">Th</label>
-			  <label><input type="checkbox" name="remember">F</label>
+				<label for="info">Best days to contact you:</label>
+				<label><input type="checkbox" name="remember">M</label>
+				<label><input type="checkbox" name="remember">T</label>
+				<label><input type="checkbox" name="remember">W</label>
+				<label><input type="checkbox" name="remember">Th</label>
+				<label><input type="checkbox" name="remember">F</label>
+			</div>
+			
+			<div class="submit"></div>
+				<input onclick="myFunction()" class="form-control" type="button" name="Submit" value="Send Request">
+				<p id="demo"></p>
 			</div>
 
-
-
-			<button onclick="myFunction()">Sed Request</button>
-				<p id="demo"></p>
-				<script>
-				function myFunction() {
-				var txt;
-				var r = confirm("Make sure you fill all informations correct before procedure");
-				if (r == true) {
-					txt = "Confirmed";
-				} else {
-					txt = "Canceled";
-				}
-				document.getElementById("demo").innerHTML = txt;
-				}
-				
-				</script>
 
 		  </form>
 		</div>
@@ -185,7 +194,11 @@ Most recent revision: v1
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>      
 	<div style="color: red; background-color: rgb(129, 130, 190);" id="noJS">Please enable JavaScript...</div>
 	<div style="color: red; background-color: rgb(129, 130, 190);" id="site">JavaScript dependent content here...</div>
+
+
 	
 </div>
+
+
  </body>
 </html>
